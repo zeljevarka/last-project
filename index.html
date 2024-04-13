@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inter:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Мой проект</title>
+</head>
+<body>
+    <section id="main">
+    <nav>
+        <div onclick="burgerChange()" class="burger">
+        <div class="burgerLine"></div>
+        <div class="burgerLine"></div>
+        <div class="burgerLine"></div>
+
+        </div>
+        <div class="fixed-menu">
+            <h1 class="logo">JM</h1>
+
+            <div class="nav-links">
+                <a href="#main" class="nav-link" onclick="btnChoose(0)">Главная</a>
+                <a href="#about" class="nav-link" onclick="btnChoose(1)">Обо мне</a>
+                <a href="#skills" class="nav-link" onclick="btnChoose(2)">Навыки</a>
+                <a href="#works" class="nav-link" onclick="btnChoose(3)">Работы</a>
+                <a href="#comments" class="nav-link" onclick="btnChoose(4)">Отзывы</a>
+            </div>
+        </div>
+    </nav>
+        
+        <div class="main-block">
+        <img src="img/glaz-removebg-preview (1).png" width="200">
+        <div class="main-content">
+        <h1 class="main-title">
+            ЮЛИЯ МИТРОФАНОВА
+        </h1>
+        <p class="main-subtitle">
+            личная страница разработчика
+        </p>
+        </div>
+        <div class="button">
+            <a href="#">подробнее</a>
+        </div>
+        </div>
+        <div class="moving-planet">
+        
+
+        </div>
+        <div class="moving-planet4"></div>
+    </section>
+    <section id="about">
+        <h1 class="title">обо мне</h1>
+       <div class="about-block">
+            <div class="about-content">
+            <div class="about-text">  
+            <p class="about-title"> Меня зовут Юля. Я занимаюсь разработкой иновационных сайтов и приложений. <br><br> Мне нравится создавать перспективные и альтернативные проекты.
+            </p>
+            <div class="button">
+            <a href="#">Мои навыки</a>
+            </div>
+            </div> 
+            <div class="about-card"> 
+            <img class="portret" src="img/portret.jpeg"> 
+            <p>Где живу: Латвия</p>  
+            <p>Возраст:16</p> 
+            <p>Дата рождения: 2008</p>  
+            </div>
+            </div>
+       </div>
+    </section>
+    <section id="skills">
+    <h1 class="title">НАВЫКИ</h1>
+    <div class="skills-block">
+    <div class="skills-card">
+    <p>ЭТОТ САЙТ Я СДЕЛАЛА В ШКОЛЕ RTS</p>
+    <div class="languages">
+    <img src="img/html.png" width="70">
+    <img src="img/css.png" width="70">
+    <img src="img/js.png" width="70">
+     </div>
+    <div class="button">
+    <a href="#">Смотреть работы</a>
+    </div>
+    </div>
+    </div>
+    <div class="moving-planet2"></div>
+    <div class="moving-planet3"></div>
+    </section>
+    <section id="works">
+        <h1 class="work-title">Мои Работы</h1>
+       <div class="works-block">
+        <img src="img/project3.jpeg" >
+        <img src="img/project2.jpeg" >
+        <img src="img/project.jpeg" >
+       </div>
+    </section>
+    <section id="comments">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+               
+              <div class="swiper-slide"> <img src="img/Презентация без названия.png" alt="*"></div>
+              
+              <div class="swiper-slide"><img src="img/Причины взять меня фронт-эндом (1).png" alt=""></div>
+              <div class="swiper-slide"><img src="img/Причины взять меня фронт-эндом (2).png" alt=""></div>
+              <div class="swiper-slide"><img src="img/Причины взять меня фронт-эндом.png" alt=""></div>
+              </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </section>
+
+</body>
+<footer>
+    <p class="about-me">ЮЛИЯ МИТРОФАНОВА <br>Личный сайт веб разработчика</p>
+    <div class="fot">(c) 2023</div>
+<div class="network-wrapper"> 
+    <img src="img/facebook.svg" >
+    <img src="img/instagram.svg" >
+    <img src="img/telegram.svg" >
+    <img src="img/discord.svg" >
+</div> 
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.JS"></script>
+</footer>
+</html>
